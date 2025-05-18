@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  background: #fff8ec;
+}
+h2{
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 3vw;
+	text-align: center;
+	padding-right: 15%;
+}
+h1{
+	font-family: Montserrat;
+	font-weight: 800;
+	color: white;
+}
+.native{
+	font-family: Montserrat;
+	font-weight: 800;
+	color: black;
+}
+.header-background {
+  position: relative;
+  background: url("images/landingquesonpol.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-importancia {
+  position: relative;
+  background: url("images/importland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-tipos {
+  position: relative;
+  background: url("images/tiposland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-habitats {
+  position: relative;
+  background: url("images/habitatsland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-flores {
+  position: relative;
+  background: url("images/floresland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-pest {
+  position: relative;
+  background: url("images/pestland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-jardin {
+  position: relative;
+  background: url("images/jardinamland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-org {
+  position: relative;
+  background: url("images/orgland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.header-background-campa {
+  position: relative;
+  background: url("images/campaland.jpg") no-repeat center center;
+  background-size: cover;
+  height: 1000px; 
+}
+.navbar-brand img {
+	object-fit: contain;
+	margin-left: 25px;
+}
+.navbar {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.custom-navbar{
+  background-color: white; 
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.nav-center{
+	margin: 0 auto;
+}
+form[role="search"] input {
+	max-width: 200px;
+}
+.navbar-container {
+	margin: 30px auto;
+	padding: 0 20px;
+	max-width: 1200px;
+	font-family: Montserrat;
+	font-weight: 700;
+	position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.navbar-brand img {
+	object-fit: contain;
+	margin-left: 10px;
+}
+.custom-search input {
+	border-radius: 35px;
+	background-color: #ffffff;
+	border: 2px solid #FFC300;
+	border-width: 2px;
+	padding-left: 15px;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+.custom-search input:focus {
+	outline: none;
+	box-shadow: none;
+}
+.custom-search button {
+	background-color: #FFC300;
+	color: white;
+	border-radius: 35px;
+	padding-bottom: 8px;
+}
+.custom-search button:hover {
+	background-color: #86C42D;
+}
+.custom-hover:hover {
+  color: #FFC300;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+footer input[type="email"] {
+  max-width: 200px;
+}
+footer a:hover img {
+  filter: brightness(0.7);
+  transition: filter 0.3s ease;
+}
+.custom-footer{
+	font-family: Montserrat;
+	background-color: #FFC300;
+}
+.below-bar{
+	background-color: #86C42D;
+	font-family: Montserrat;
+	font-weight: 600;
+	color: white;	
+}
+.form-control{
+	font-weight: 700;
+}
+.btn{
+	background-color: #86C42D;
+}
+.btn:hover{
+	background-color: #3A7D44;
+}
+
+.box:hover img{
+    transform: scale(1.1);
+}
+.box:hover .overlay{
+    height: 100%;
+}
+.tilt-container {
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  perspective: 1000px;
+	border-radius: 500px;
+}
+.tilt {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/beeland.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  transition: transform 0.1s ease-out;
+  transform-style: preserve-3d;
+  box-shadow: 0px 2px 15px 0.7px rgba(255, 170, 0, 1.00);
+}
+.tilt-container2 {
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  perspective: 1000px;
+	border-radius: 500px;
+}
+.tilt2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/importilt.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  transition: transform 0.1s ease-out;
+  transform-style: preserve-3d;
+  box-shadow: 0px 2px 15px 0.7px rgba(134, 196, 45, 1.00);
+}
+.tilt-container3 {
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  perspective: 1000px;
+	border-radius: 500px;
+}
+.tilt3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/jardintilt.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  transition: transform 0.1s ease-out;
+  transform-style: preserve-3d;
+  box-shadow: 0px 2px 15px 0.7px rgba(255, 170, 0, 1.00);
+}
+.divider{
+	background-color: #fff8ec;
+	height: 50px;
+}
+.timpor{
+	padding-left: 30%;
+}
+.pland{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 1.25vw;
+	text-align: center;
+	padding-right: 15%;
+}
+.pland2{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 1.25vw;
+	text-align: center;
+	padding-left: 15%;
+}
+.img-wrapper {
+  position: relative;
+  width: 35vw;        
+  height: 35vw;
+  max-width: 700px;   
+  max-height: 700px;
+  min-width: 300px;   
+  min-height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px;
+	cursor: pointer;
+	transition: transform 0.3 ease;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.img-wrapper img.hover-img {
+  opacity: 0;
+}
+
+.img-wrapper:hover img.hover-img {
+  opacity: 1;
+}
+.img-wrapper:hover img:first-child {
+  opacity: 0;
+}
+.img-wrapper2 {
+  position: relative;
+  width: 30vw;        
+  height: 30vw;
+  max-width: 700px;   
+  max-height: 700px;
+  min-width: 300px;   
+  min-height: 300px;
+  margin: 20px;
+	cursor: pointer;
+	transition: transform 0.3 ease;
+}
+
+.img-wrapper2 img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.img-wrapper2 img.hover-img {
+  opacity: 0;
+}
+
+.img-wrapper2:hover img.hover-img {
+  opacity: 1;
+  transform: scale(1.25);
+}
+.img-wrapper2:hover img:first-child {
+  opacity: 0;
+}
+.custom-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: auto;
+}
+.custom-pagination .page-item + .page-item {
+  margin-left: 20px;
+}
+
+.custom-pagination .page-link {
+  background-color: #CAEF89;
+  color: black;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+  border-radius: 50px !important;
+	font-family: Montserrat;
+	font-weight: 500;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	font-size: 20px;
+}
+
+.custom-pagination .page-link:hover {
+  background-color: #86C42D;
+  color: #fff;
+	font-weight: 800;
+}
+
+.custom-pagination .active .page-link {
+  background-color: #86C42D;
+  color: white;
+  border-color: #86C42D;
+	font-family: Montserrat;
+	font-weight: 800;
+	text-align: center;
+}
+
+
+
+.maincontainer{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	perspective: 1000px;
+}
+
+.thecard{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+	
+}
+.thecard:hover{
+	transform: rotateY(180deg);
+}
+.thefront{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: #ffc728;
+	color: #333;
+	border-radius: 25px;
+	text-align: center;
+	font-family: Montserrat;
+	font-weight: 800;
+}
+.theback{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: #fafafa;
+	color: #333;
+	transform: rotateY(180deg);
+	border-radius: 25px;
+	text-align: center;
+	font-family: Montserrat;
+	font-weight: 800;
+	padding-top: 45%;
+}
+
+
+a,a:visited{
+	text-decoration: none;
+	color: white;
+	
+}
+#polland{
+	text-align: center;
+	position: relative;
+	padding-top: 22%;
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 8vw;
+	color: white;
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+}
+#logo{
+	margin-left: 15px;
+}
+#bar-como{
+	background: #86C42D;
+	text-align: center;
+	padding: 2%;
+}
+#text-como{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 1.2vw;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+.navbar-nav {
+    text-align: center;
+  }
+.navbar-nav .nav-link {
+	padding: 0.5rem;
+  }
+	
+	
+.header-background-importancia, .header-background-pest, .header-background, .header-background-tipos, .header-background-habitats, .header-background-flores, .header-background-jardin, .header-background-org, .header-background-campa{
+	height: 450px;		
+}
+.navbar-container{
+	top:10px;
+	max-height: 50%;
+}
+.navbar-container {
+    max-width: 65%; 
+    padding: 0 10px;
+  }
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+}
+.custom-search {
+    justify-content: center;
+    margin-top: 10px;
+}
+.container {
+	width: 85%;
+	max-width: 750px;
+	aspect-ratio: 4 / 3; 
+	perspective: 1000px;
+	margin: 0 auto; 
+}
+.custom-pagination .page-link {
+    background-color: #CAEF89;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+    border-radius: 50px !important;
+	font-family: Montserrat;
+	font-weight: 400;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	font-size: 90%;
+}
+	.col-6{
+	min-width: 400px;
+	margin-bottom: 25px;
+	}
+.maincontainer{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	perspective: 1000px;
+}
+
+h2{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 10vw;
+	margin-top: 12%;
+}
+form[role="search"] {
+	margin-top: 10px;
+    justify-content: center;
+  }
+#polland{
+	text-align: center;
+	position: relative;
+	padding-top: 40%;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 9vw;
+	color: white;
+}
+#logo{
+		max-width: 75%;
+}
+h2{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+	.timpor{
+	padding-right: 5%;
+	padding-left: 5%;
+	}
+.pland{
+	text-align: center;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 3.5vw;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+	.pland2{
+	text-align: center;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 3.5vw;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.img-wrapper2 {
+  position: relative;
+  width: 10vw;        
+  height: 20vw;
+  max-width: 700px;   
+  max-height: 700px;
+  min-width: 300px;   
+  min-height: 300px;
+  margin: 20px;
+	cursor: pointer;
+	transition: transform 0.3 ease;
+}
+#bar-como{
+	text-align: center;
+	padding: 4%;
+}
+#text-como{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 3.5vw;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+}

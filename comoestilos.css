@@ -244,9 +244,12 @@ footer a:hover img {
 .slide-button:hover .slide-text.second {
       transform: translateY(0);
     }
-a,a:visited{
+a, a:visited{
 	text-decoration: none;
-	
+	color: inherit;
+}
+.custom-navbar a:visited{
+	color: inherit;
 }
 #polland{
 	text-align: center;

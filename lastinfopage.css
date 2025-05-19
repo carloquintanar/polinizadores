@@ -406,10 +406,12 @@ footer a:hover img {
 }
 
 
-a,a:visited{
+a, a:visited{
 	text-decoration: none;
-	color: white;
-	
+	color: inherit;
+}
+.custom-navbar a:visited{
+	color: inherit;
 }
 #polland{
 	text-align: center;
